@@ -4,7 +4,7 @@
  * Plugin Name: RobotXtender
  * Plugin URI: https://github.com/amarasa/robotxtender
  * Description: A WordPress plugin to update Robots.txt and override Yoast's settings.
- * Version: 1.0
+ * Version: 1.1
  * Author: Angelo Marasa
  * Author URI: https://github.com/amarasa/robotxtender
  * License: GPL-2.0+
@@ -73,11 +73,13 @@ register_activation_hook(__FILE__, 'robotxtender_activate');
 
 function robotxtender_activate()
 {
+
     // Default robots.txt content
     $default_robots_txt = "# RobotXtender\n";
     $default_robots_txt .= "# ---------------------------\n";
     $default_robots_txt .= "User-agent: *\n";
-    $default_robots_txt .= "Disallow:\n";
+    $default_robots_txt .= "Disallow: /wp-admin/\n";
+    $default_robots_txt .= "Allow: /wp-admin/admin-ajax.php\n";
     $default_robots_txt .= "# -------------------\n";
     $default_robots_txt .= "# END RobotXtender BLOCK\n";
 
