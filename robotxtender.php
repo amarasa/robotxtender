@@ -20,7 +20,7 @@ use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 $myUpdateChecker = PucFactory::buildUpdateChecker(
     'https://github.com/amarasa/robotxtender',
     __FILE__,
-    'rev-trackr'
+    'robotxtender-plugin'
 );
 
 //Set the branch that contains the stable release.
