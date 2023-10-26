@@ -4,7 +4,7 @@
  * Plugin Name: RobotXtender
  * Plugin URI: https://github.com/amarasa/robotxtender
  * Description: A WordPress plugin to update Robots.txt and override Yoast's settings.
- * Version: 1.1
+ * Version: 1.2
  * Author: Angelo Marasa
  * Author URI: https://github.com/amarasa/robotxtender
  * License: GPL-2.0+

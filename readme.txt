@@ -27,8 +27,11 @@ No, the sitemap will be dynamically pulled in through a WordPress function
 
 == Changelog ==
 
-= 1.1 = 
+= 1.2 = 
 * Added ability to update through GitHub
+
+= 1.1 = 
+* Fixed a typo
 
 = 1.0 =
 * First production release
